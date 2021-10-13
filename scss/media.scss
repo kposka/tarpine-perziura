@@ -1,0 +1,240 @@
+@media only screen and (max-width:500px){
+  .container{
+    max-width:600px;
+    .navbar{
+      width:100%;
+    }
+    .firstrow{
+      height:600px;
+      p{
+        font-size:20px;
+        padding:0 50px;
+      }
+      button{
+        width:250px;
+      }
+      input{
+        width:250px;
+      }
+    }
+    .secondrow{
+      display:flex;
+      flex-direction:column;
+      height:1000px;
+        .box{
+          i{
+            transform: scale(2);
+          }
+          h3{
+            text-align: center;
+          }
+        }
+      }
+      .thirdrow{
+        display:flex;
+        flex-direction:column-reverse;
+          .box{
+            width:100%;
+              article{
+                margin: 30px;
+                font-size:12px;
+              }
+          }
+      }
+      .fourthrow{
+        display:flex;
+        flex-direction: column;
+          .box{
+            width:100%;
+            article{
+              margin: 30px;
+              font-size:12px;
+            }
+          }
+      }
+      .fithrow {
+        display:flex;
+        flex-direction:column-reverse;
+        .box{
+          width:100%;
+          article{
+            margin: 30px;
+            font-size:12px;
+          }
+        }
+      }
+      .customers{
+        height:1200px;
+        text-align: center;
+        .people{
+          display:flex;
+          flex-direction: column;
+          .person{
+            p{
+              margin:0 40px;
+            }
+          }
+        }
+      }
+      .sign-up{
+        width:100%;
+         button{
+           width:250px;
+         }
+         input{
+           width:250px;
+         }
+         p{
+           font-size:20px;
+           padding:0 50px;
+         }
+      }
+      .footer {
+        display:flex;
+        flex-direction:column;
+        height:200px;
+        .list{
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+            ul{
+              li{
+                font-size:10px;
+              }
+            }
+          p{
+            font-size:8px;
+          }
+        }
+
+      }
+  }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:900px){
+  .container{
+    width:100%;
+    .navbar{
+      width:100%;
+      display:flex;
+    }
+    .firstrow{
+      height:600px;
+      width:100%;
+      p{
+        font-size:20px;
+        padding:0 50px;
+      }
+      button{
+        width:100px;
+      }
+      input{
+        width:400px;
+      }
+    }
+    .secondrow{
+      display:flex;
+      flex-direction:column;
+      height:1000px;
+        .box{
+          i{
+            transform: scale(4);
+          }
+          h3{
+            text-align: center;
+            font-size:40px;
+          }
+          p{
+            font-size:30px;
+            margin:0px 50px;
+            line-height: 40px;
+          }
+        }
+      }
+      .thirdrow{
+        display:flex;
+        flex-direction:column-reverse;
+          .box{
+            width:100%;
+              article{
+                margin: 100px;
+                font-size:16px;
+              }
+          }
+      }
+      .fourthrow{
+        display:flex;
+        flex-direction: column;
+          .box{
+            width:100%;
+            article{
+              margin: 100px;
+              font-size:16px;
+            }
+          }
+      }
+      .fithrow {
+        display:flex;
+        flex-direction:column-reverse;
+        .box{
+          width:100%;
+          article{
+            margin: 100px;
+            font-size:16px;
+          }
+          img{
+            height:500px;
+          }
+        }
+      }
+      .customers{
+        height:1300px;
+        text-align: center;
+        .people{
+          display:flex;
+          flex-direction: column;
+          .person{
+            p{
+              margin:0 200px;
+            }
+          }
+        }
+      }
+      .sign-up{
+        width:100%;
+         button{
+           width:100px;
+         }
+         input{
+           width:400px;
+         }
+         p{
+           font-size:20px;
+           padding:0 50px;
+         }
+      }
+      .footer {
+        display:flex;
+        flex-direction:column;
+        height:200px;
+        .list{
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+            ul{
+              li{
+                font-size:15px;
+              }
+            }
+          p{
+            font-size:12px;
+          }
+        }
+
+      }
+    }
+
+  }
